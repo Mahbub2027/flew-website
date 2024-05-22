@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Flex</title>
+</head>
+
+<body>
+    <!-- nav & hero section -->
+    <div class="" style="background-image: url('./assets/hero-bg.png'); background-repeat: no-repeat; background-size: cover; background-position: center;" 
+     >
+        <!-- navbar -->
+        <div class="w-11/12 mx-auto flex flex-col md:flex-row items-center justify-between py-5">
+            <img src="./assets/nav-Logo.png" width="" alt="">
+            <div>
+                <ul class="flex gap-5 text-[#556987] font-medium">
+                    <li><button>Product</button></li>
+                    <li><button>Features</button></li>
+                    <li><button>Pricing</button></li>
+                    <li><button>Resources</button></li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-8">
+                <button class="text-[#556987] font-medium">Log In</button>
+                <button class="bg-[#22C55E] text-white rounded-md w-20 p-2 text-center font-medium">Sign Up</button>
+            </div>
+        </div>
+        <!-- hero  -->
+        <div class="w-10/12 mx-auto h-[780px] mt-10 flex flex-col lg:flex-row  justify-between items-center">
+            <div>
+                <h1 class="bg-[#22C55E] w-20 font-medium rounded-xl text-center text-white uppercase">Header</h1>
+                <h1 class="text-6xl font-bold leading-[72px] text-[#2A3342]">A small business <br> is only as good <br>
+                    as its tools. </h1>
+                <p class="text-[#556987] text-xl font-medium my-4"> Lorem ipsum dolor sit amet, consectetur adipisng.</p>
+                <p class="flex item-center gap-2 text-[#556987] text-xl font-medium "> <img src="./assets/Checkbox.png"
+                        width="25px" height="16px" alt=""> Mauris pellentesque congue libero nec</p>
+                <p class="flex item-center gap-2 text-[#556987] text-xl font-medium my-2"> <img src="./assets/Checkbox.png"
+                        width="25px" height="16px" alt=""> Suspendisse mollis tincidunt</p>
+                <p class="flex items-center gap-2 text-[#556987] text-xl font-medium "> <img src="./assets/Checkbox.png"
+                        width="25px" height="16px" alt=""> Praesent varius justo vel justo pulvinar </p>
+            </div>
+            <div  class="bg-white w-[400px] lg:w-[500px] h-[600px] relative shadow-xl">
+                <p class=""><img src="./assets/Logo.png"
+                        class="bg-[#22C55E] w-14 h-14 rounded-lg absolute -top-7 left-1/2" alt=""></p>
+                <div class="w-[358px] mx-auto ">
+                    <!-- <p class="absolute -top-5 right-1/2"><img src="./assets/Logo.png" class="bg-[#22C55E] w-16 h-16 rounded-lg " alt=""></p> -->
+                    <h1 class="text-[#2A3342] font-bold text-center text-4xl mt-14">Join our community</h1>
+                    <p class="text-[#556987] text-center font-medium my-4">Start your free trial</p>
+                    <label class="text-[#333F51] font-medium text-base"><span class="pb-2">Email</span> <br>
+                        <input class="border-2 p-2 rounded-lg w-full outline-none"
+                            placeholder="Enter your email address" type="email">
+                    </label>
+                    <p class="bg-[#22C55E] text-white text-center font-medium p-3 rounded-lg my-4">Get Started</p>
+                    <p class="flex justify-center items-center" >
+                        <span class="border-b-2 w-full"></span>
+                        <span class="my-0 mx-2">Or</span>
+                        <span class="border-b-2 w-full"></span>
+                    </p>
+                    <p
+                        class="border-2 flex gap-2 font-medium text-[#556987] items-center justify-center p-2 rounded-lg my-4">
+                        <img src="./assets/google.png" width="32px" height="32px" alt="">Sign in with Google</p>
+                    <p
+                        class="border-2 flex gap-2 font-medium text-[#556987] items-center justify-center p-2 rounded-lg my-4">
+                        <img src="./assets/facebook.png" width="32px" height="32px" alt="">Sign in with Facebook</p>
+                    <p
+                        class="border-2 flex gap-2 font-medium text-[#556987] items-center justify-center p-2 rounded-lg my-4">
+                        <img src="./assets/apple.png" width="32px" height="32px" alt="">Sign in with Apple</p>
+                    <p class="text-[#8896AB] text-center font-medium">Already have an account? <span
+                            class="text-[#22C55E]">Sign In</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- numbers section -->
+    <div class="w-10/12 mx-auto mt-[450px] lg:my-20">
+        <div class="text-center">
+            <h1 class="w-28 font-medium mx-auto my-4 bg-[#DCFCE7] text-[#22C55E] p-1 text-center rounded-xl">NUMBERS</h1>
+            <h1 class="font-bold text-[#2A3342] text-5xl">We believe in the power of data</h1>
+            <p class="text-[#556987] font-medium mt-4"> Flex is the only business platform that lets you run your business on one platform, <br> seamlessly across all digital channels.</p>
+        </div>
+        <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center mt-20">
+            <div>
+                <h1 class="text-[#2A3342] font-bold text-5xl">235.000</h1>
+                <p class="text-[#556987] font-medium mt-2 text-center">Projects completed</p>
+            </div>
+            <div>
+                <h1 class="text-[#2A3342] font-bold text-5xl">$10m</h1>
+                <p class="text-[#556987] font-medium mt-2 text-center">APR</p>
+            </div>
+            <div>
+                <h1 class="text-[#2A3342] font-bold text-5xl">+50.000</h1>
+                <p class="text-[#556987] font-medium mt-2 text-center">Hours Saved Annually</p>
+            </div>
+            <div>
+                <h1 class="text-[#2A3342] font-bold text-5xl">3.500</h1>
+                <p class="text-[#556987] font-medium mt-2 text-center">Unique Users</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
